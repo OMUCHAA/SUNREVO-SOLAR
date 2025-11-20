@@ -39,11 +39,11 @@
        <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 my-6">
         <div class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
             <img src="../assets/ourservices4.jpg" alt="services image" class="rounded-t-2xl w-full">
-            <p class="text-center font-semibold text-xl my-2 text-blue-900">12kW Solar System Mombasa</p>
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Resort Microgrid</p>
         </div>
         <div class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
             <img src="../assets/ourservices2.png" alt="services image" class="rounded-t-2xl w-full">
-            <p class="text-center font-semibold text-xl my-2 text-blue-900">12kW Solar System Mombasa</p>
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">Rural water pump</p>
         </div>
         <div class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
             <img src="../assets/ourservices3.png" alt="services image" class="rounded-t-2xl w-full">
