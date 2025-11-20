@@ -47,7 +47,8 @@
       <router-link to="/projects"><li class="mr-8 cursor-pointer font-semibold">PROJECTS</li></router-link>
     </ul>
     <router-link to="/inquire"><button
-      class="border flex justify-center items-center h-10 lg:h-12 px-2 rounded bg-blue-950 font-semibold text-white hover:bg-white hover:text-blue-950 transition-colors duration-500 active:bg-blue-700 active:text-white"
+      class="border flex justify-center items-center h-10 lg:h-12 px-2 rounded bg-blue-950 font-semibold text-white hover:bg-white 
+      hover:text-blue-950 transition-colors duration-500 active:bg-blue-700 active:text-white"
     >
       <i class="fa-solid fa-inbox"></i>Inquire Now
     </button></router-link>

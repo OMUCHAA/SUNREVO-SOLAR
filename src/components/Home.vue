@@ -16,7 +16,7 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
     </div>
 
     <div class="bg-gray-200 mt-8">
-        <div class="grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 md:gap-5 gap-10 justify-around items-center lg:w-[60%] md:w-[75%] w-[92%] mx-auto py-8">
+        <div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-3 grid-cols-2 gap-10 justify-around items-center lg:w-[60%] md:w-[75%] w-[92%] mx-auto py-8">
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg  cursor-pointer transition duration-200">
             <img src="../assets/customizable11.svg" alt="customizable1" class="h-3/4 rounded-full p-2 border-blue-300 mx-4 border-2">
             <p class="text-blue-300 text-center font-bold">Home Power</p>
@@ -29,7 +29,6 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
             <img src="../assets/customizable33.svg" alt="customizable3" class="h-3/4 rounded-full p-2 border-blue-300 border-2">
             <p class="text-blue-300 text-center font-bold">Water Pump</p>
         </div>
-
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200">
             <img src="../assets/customizable44.svg" alt="customizable4" class="h-3/4 rounded-full p-2 border-blue-300 border-2">
             <p class="text-blue-300 text-center font-bold">Power Backup</p>
