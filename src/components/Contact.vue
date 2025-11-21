@@ -14,7 +14,7 @@
       <i class="fa-solid fa-envelope text-4xl text-blue-900"></i>
       <span class="text-xl ml-6">Info@sunrevo.com</span><br /><br />
     </div>
-    <div class="mr-16">
+    <div class="mr-20">
       <i class="fa-solid fa-location-dot text-4xl text-blue-900"></i>
       <span class="text-xl ml-8">MSA Rd. NAIROBI</span>
     </div>

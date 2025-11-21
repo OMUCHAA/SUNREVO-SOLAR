@@ -65,7 +65,7 @@
       class="border flex justify-center items-center h-8 lg:h-12 px-2 rounded bg-blue-950 font-semibold text-white hover:bg-white 
       hover:text-blue-950 transition-colors duration-500 active:bg-blue-700 active:text-white"
     >
-      <i class="fa-solid fa-inbox"></i>Inquire Now
+      <i class="fa-solid fa-inbox py-3"></i>Inquire Now
     </button></router-link>
   </nav>
 </template>
