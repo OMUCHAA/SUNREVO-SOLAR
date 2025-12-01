@@ -8,6 +8,7 @@
         <div class="flex md:justify-start justify-center mb-4">
             <img src="../assets/sunrevo.jpeg" alt="Company-Logo" class="h-12">
         </div>
+        <!--Where after pumping the process after sahii mambo ni baad bana joh dgfgfgf-->
         <p class="text-blue-300">
           SunRevo Power provides affordable, reliable, and eco-friendly solar energy solutions for homes and businesses across Kenya.
         </p>

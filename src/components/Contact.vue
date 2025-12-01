@@ -16,7 +16,7 @@
     </div>
     <div class="mr-20">
       <i class="fa-solid fa-location-dot text-4xl text-blue-900"></i>
-      <span class="text-xl ml-8">MSA Rd. NAIROBI</span>
+      <span class="text-xl ml-12">MSA Rd. KENYA</span>
     </div>
   </div>
 </template>

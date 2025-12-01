@@ -5,7 +5,7 @@
         <div class="flex flex-col justify-between ">
             <h1 class="font-serif font-semibold text-xl md:text-2xl lg:text-3xl text-blue-900 mb-5">Transforming the Future of Energy with Solar Technology</h1>
             <h1 class="font-mono text-2xl mb-1 text-blue-900">About Sunrevo Solar Power</h1>
-            <p class="mb-1 text-blue-900">About SunRevo Power
+            <p class="mb-1 text-blue-900">
 SunRevo Power started as a solar lighting company driven by a mission to make clean and sustainable energy accessible to everyone. Over time, we have expanded into one of <strong>the most trusted</strong> solar providers in Mombasa and across Kenya—known for our affordability, technical expertise, and strong commitment to environmental conservation.
 
 Today, SunRevo Power focuses on supplying and installing high-quality, reliable, and eco-friendly solar energy systems. By combining modern technology with practical experience, we deliver solutions that lower energy costs while supporting a greener future.</p>
@@ -49,7 +49,7 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
      <div class="relative bg-cover bg-center" :style="{ backgroundImage: `url(${ServicesBanner})` }">
         <div class="absolute inset-0 bg-black/65"></div>
         <div data-aos="slide-right" data-aos-duration="1200" class="relative z-10 flex flex-col items-center justify-center min-h-[50vh]">
-            <h1 class="text-blue-200 font-normal text-center text-4xl sm:text-5xl md:text-7xl font-serif">
+            <h1 class="text-orange-200 font-normal text-center text-4xl sm:text-5xl md:text-7xl font-serif">
                 Our Services
             </h1>
         </div>
@@ -93,7 +93,6 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
             <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
     </div>
-
     <!--Why Choose SunRevo Power-->
     <div id="wrapper" class="flex flex-col items-center justify-center bg-white lg:w-3/5 w-[90%] mx-auto mt-7 text-blue-950 py-10 shadow shadow-blue-800">
     <h1 class="font-semibold lg:text-3xl md:text-2xl text-xl">Why Choose SUNREVO Power?</h1>
@@ -135,6 +134,21 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
     <!--The projects-->
        <div data-aos="slide-up" data-aos-duration="600" class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 my-6">
         <div class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
+            <img src="../assets/sunrevoproject1.jpg" alt="services image" class="rounded-t-2xl w-full">
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Microgrid</p>
+            <router-link to="/services" class="w-[90%]"><button class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400">View Project</button></router-link>
+        </div>
+        <div data-aos="slide-up" data-aos-duration="600" class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
+            <img src="../assets/sunrevoproject22.jpg" alt="services image" class="rounded-t-2xl w-full">
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Microgrid</p>
+            <router-link to="/services" class="w-[90%]"><button class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400">View Project</button></router-link>
+        </div>
+        <div data-aos="slide-up" data-aos-duration="600" class="rounded-t-2xl lg:w-[360px] w-full flex flex-col justify-between bg-white shadow-lg items-center pb-4">
+            <img src="../assets/hero1.jpg" alt="services image" class="rounded-t-2xl w-full">
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Microgrid</p>
+            <router-link to="/services" class="w-[90%]"><button class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400">View Project</button></router-link>
+        </div>
+        <div data-aos="slide-up" data-aos-duration="600"  class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
             <img src="../assets/ourservices4.jpg" alt="services image" class="rounded-t-2xl w-full">
             <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Microgrid</p>
             <router-link to="/services" class="w-[90%]"><button class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400">View Project</button></router-link>
