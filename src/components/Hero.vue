@@ -6,7 +6,7 @@
                 Advanced Solar Power Solutions
             </h1>
             <p data-aos="zoom-in" data-aos-duration="2000" class="font-mono text-white text-center py-10 text-sm sm:text-xl md:text-2xl">SunRevo is the brand that brightens your world!</p>
-            <router-link to="/services"><button data-aos="zoom-in" data-aos-duration="2500" class="text-white border-orange-100 border-[3px] font-semibold py-3 rounded px-4 hover:border-blue-200 hover:bg-blue-300 hover:text-black transition duration-500">Explore Projects</button></router-link>
+            <router-link to="/services"><button data-aos="zoom-in" data-aos-duration="2500" class="text-white border-orange-100 border-[3px] font-semibold py-3 rounded px-4 hover:bg-orange-400 hover:text-black transition duration-500">Explore Projects</button></router-link>
         </div>
     </div>
 </template>

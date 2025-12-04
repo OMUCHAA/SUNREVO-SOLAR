@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-around items-center sticky py-2 top-0 z-50 bg-gradient-to-r from-white/20 to-blue-200/10 backdrop-blur-md">
+  <nav class="flex justify-around items-center sticky py-2 top-0 z-50 bg-gradient-to-r from-white/80 to-blue-200/10 backdrop-blur-md">
     <!--What is going to be visible on smaller screens-->
     <div @click="toggleMenu" class="lg:hidden z-50">
       <i
@@ -12,7 +12,7 @@
          text-orange-100 bg-blue-800 fixed -mt-4 -ml-2"
       ></i>
     </div>
-
+    <!--"google-site-verification=l8IVfHdoJ1r2HjztF78HvudJ5MR5WSY18mZS5zPb3Vo"-->
     <!--Show the dropdown if the menu is open-->
     <transition
     enter-active-class="transition duration-400 ease-out"

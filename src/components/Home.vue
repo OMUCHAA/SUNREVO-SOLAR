@@ -19,27 +19,27 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
         <div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-3 grid-cols-2 gap-10 justify-around items-center lg:w-[60%] md:w-[75%] w-[92%] mx-auto py-8">
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg  cursor-pointer transition duration-200">
             <img src="../assets/customizable11.svg" alt="customizable1" class="h-3/4 rounded-full p-2 border-blue-300 mx-4 border-2">
-            <p class="text-blue-300 text-center font-bold">Home Power</p>
+            <p class="text-orange-100 text-center font-bold">Home Power</p>
         </div>
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200">
             <img src="../assets/customizable22.svg" alt="customizable2" class="h-3/4 rounded-full p-2 border-blue-300 border-2">
-            <p class="text-blue-300 text-center font-bold">MicroGrid Solar</p>
+            <p class="text-orange-100 text-center font-bold">MicroGrid Solar</p>
         </div>
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200">
             <img src="../assets/customizable33.svg" alt="customizable3" class="h-3/4 rounded-full p-2 border-blue-300 border-2">
-            <p class="text-blue-300 text-center font-bold">Water Pump</p>
+            <p class="text-orange-100 text-center font-bold">Water Pump</p>
         </div>
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200">
             <img src="../assets/customizable44.svg" alt="customizable4" class="h-3/4 rounded-full p-2 border-blue-300 border-2">
-            <p class="text-blue-300 text-center font-bold">Power Backup</p>
+            <p class="text-orange-100 text-center font-bold">Power Backup</p>
         </div>
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200">
             <img src="../assets/customizable555.svg" alt="customizable5" class="h-3/4 rounded-full p-2 border-blue-300 border-2">
-            <p class="text-blue-300 text-center font-bold">Lighting Solar</p>
+            <p class="text-orange-100 text-center font-bold">Lighting Solar</p>
         </div>
         <div class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black   hover:shadow-lg cursor-pointer transition duration-200">
             <img src="../assets/customizable66.svg" alt="customizable6" class="h-3/4 border-2 rounded-full p-2 border-blue-300">
-            <p class="text-blue-300 text-center font-bold">Water Heater</p>
+            <p class="text-orange-100 text-center font-bold">Water Heater</p>
         </div>
         </div>
     </div>
@@ -58,37 +58,37 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
     <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 mx-auto lg:w-4/5 w-[90%] -mt-14">
         <div data-aos="slide-up" data-aos-duration="600" class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3">
             <img src="../assets/installation.jpg" alt="" class="rounded-t-2xl">
-            <p class="text-blue-300 font-bold text-lg font">Solar System Installation</p>
+            <p class="text-orange-300 font-bold text-lg font">Solar System Installation</p>
             <p class="text-white">Complete installation of solar panels, inverters, batteries, charge controllers, and other system components for homes, businesses, and industries.</p>
             <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3">
             <img src="../assets/installation2.jpg" alt="" class="rounded-t-2xl">
-            <p class="text-blue-300 font-bold text-lg font">Solar System Design and Consultation</p>
+            <p class="text-orange-300 font-bold text-lg font">Solar System Design and Consultation</p>
             <p class="text-white">Assessing customer energy needs and designing customized solar solutions, including site surveys, load assessment, and professional recommendations.</p>
             <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3">
             <img src="../assets/repair.jpg" alt="" class="rounded-t-2xl">
-            <p class="text-blue-300 font-bold text-lg font">Solar Maintenance and Repair</p>
+            <p class="text-orange-300 font-bold text-lg font">Solar Maintenance and Repair</p>
             <p class="text-white">Routine system checkups, cleaning, troubleshooting, and repair of faulty panels, inverters, batteries, and wiring to ensure peak performance.</p>
             <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3">
             <img src="../assets/energyaudit.jpg" alt="" class="rounded-t-2xl">
-            <p class="text-blue-300 font-bold text-lg font">Energy Audits and Efficiency Optimization</p>
+            <p class="text-orange-300 font-bold text-lg font">Energy Audits and Efficiency Optimization</p>
             <p class="text-white">Evaluating energy usage and providing solutions to reduce electricity costs through solar integration and energy-efficient technologies.</p>
             <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3">
             <img src="../assets/last.jpg" alt="" class="rounded-t-2xl">
-            <p class="text-blue-300 font-bold text-lg font">Solar Equipment Sales</p>
+            <p class="text-orange-300 font-bold text-lg font">Solar Equipment Sales</p>
             <p class="text-white">Selling high-quality solar products such as panels, batteries, inverters, solar lights, charge controllers, water pumps, and solar accessories.</p>
            <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3">
             <img src="../assets/installation1.jpg" alt="" class="rounded-t-2xl">
-            <p class="text-blue-300 font-bold text-lg font">Solar Backup and Hybrid Systems</p>
+            <p class="text-orange-300 font-bold text-lg font">Solar Backup and Hybrid Systems</p>
             <p class="text-white">Installation of backup power solutions, hybrid systems, and solar battery storage for reliable power during blackouts or off-grid setups.</p>
             <router-link to="/services"><button class="bg-blue-300 rounded-sm py-1 mt-3 hover:bg-blue-900 hover:text-blue-300 transition duration-300 font-bold w-full">Learn More...</button></router-link>
         </div>
@@ -128,19 +128,19 @@ Today, SunRevo Power focuses on supplying and installing high-quality, reliable,
      <!--Our Projects-->
     <div class="flex flex-col justify-center items-center my-10 w-full">
        <div class="bg-blue-950 lg:w-3/5 w-[90%]">
-          <h1 class="text-center text-blue-400 text-3xl p-3 font-serif">Our Projects</h1>
+          <h1 class="text-center text-orange-400 text-3xl p-3 font-serif">Our Projects</h1>
        </div>
 
     <!--The projects-->
        <div data-aos="slide-up" data-aos-duration="600" class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 my-6">
         <div class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
             <img src="../assets/sunrevoproject1.jpg" alt="services image" class="rounded-t-2xl w-full">
-            <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Microgrid</p>
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">High-Performance SunRevo Battery</p>
             <router-link to="/services" class="w-[90%]"><button class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400">View Project</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4">
             <img src="../assets/sunrevoproject22.jpg" alt="services image" class="rounded-t-2xl w-full">
-            <p class="text-center font-semibold text-xl my-2 text-blue-900">Kilifi Microgrid</p>
+            <p class="text-center font-semibold text-xl my-2 text-blue-900">Reliable Home Power Backup</p>
             <router-link to="/services" class="w-[90%]"><button class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400">View Project</button></router-link>
         </div>
         <div data-aos="slide-up" data-aos-duration="600" class="rounded-t-2xl lg:w-[360px] w-full flex flex-col justify-between bg-white shadow-lg items-center pb-4">
