@@ -53,7 +53,7 @@ const router = createRouter({
         behavior: 'smooth',
       };
     } else {
-      // Scroll to top of page with smooth behavior
+      //Navigate to the top page
       return { top: 0, behavior: 'smooth' };
     }
   },

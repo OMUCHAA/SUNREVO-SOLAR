@@ -116,11 +116,37 @@
         class="border-2 border-blue-800 rounded-lg p-3"
       >
         <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
-          Proven Reliability
+          Trusted Solar Experts
         </h2>
         <p>
-          With Over 100 successful solar projects delivered nation wide, our systems are
-          built to last and perform reliably in all conditions.
+          We bring years of hands-on experience to every project, ensuring reliable and
+          professional solar solutions.
+        </p>
+      </div>
+      <div
+        data-aos="slide-up"
+        data-aos-duration="600"
+        class="border-2 border-blue-800 rounded-lg p-3"
+      >
+        <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
+          Affordable, High-Quality Products
+        </h2>
+        <p>
+          Our systems are designed to give you the best performance at a price that fits
+          your budget.
+        </p>
+      </div>
+      <div
+        data-aos="slide-up"
+        data-aos-duration="600"
+        class="border-2 border-blue-800 rounded-lg p-3"
+      >
+        <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
+          Professional Installation
+        </h2>
+        <p>
+          Our skilled technicians install every system precision for maximum efficiency
+          and long-term durability.
         </p>
       </div>
       <div
@@ -142,11 +168,11 @@
         class="border-2 border-blue-800 rounded-lg p-3"
       >
         <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
-          Proven Reliability
+          Fast and Reliable Support
         </h2>
         <p>
-          With Over 100 successful solar projects delivered nation wide, our systems are
-          built to last and perform reliably in all conditions.
+          We provide timely assistance, maintence, and after-sale support to keep your
+          system running smoothly.
         </p>
       </div>
       <div
@@ -155,37 +181,11 @@
         class="border-2 border-blue-800 rounded-lg p-3"
       >
         <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
-          Proven Reliability
+          Commitment and Sustainability
         </h2>
         <p>
-          With Over 100 successful solar projects delivered nation wide, our systems are
-          built to last and perform reliably in all conditions.
-        </p>
-      </div>
-      <div
-        data-aos="slide-up"
-        data-aos-duration="600"
-        class="border-2 border-blue-800 rounded-lg p-3"
-      >
-        <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
-          Proven Reliability
-        </h2>
-        <p>
-          With Over 100 successful solar projects delivered nation wide, our systems are
-          built to last and perform reliably in all conditions.
-        </p>
-      </div>
-      <div
-        data-aos="slide-up"
-        data-aos-duration="600"
-        class="border-2 border-blue-800 rounded-lg p-3"
-      >
-        <h2 class="lg:text-2xl text-blue-800 text-xl hover:text-blue-400">
-          Proven Reliability
-        </h2>
-        <p>
-          With Over 100 successful solar projects delivered nation wide, our systems are
-          built to last and perform reliably in all conditions.
+          Choosing us means choosing clean, renewable energy that protects the environment
+          and reduce electricity costs.
         </p>
       </div>
     </div>
