@@ -6,13 +6,13 @@
     <p class="mb-6 text-lg">
       Reach Out to us for any questions, assistance or clarification.
     </p>
-    <div class="mr-20">
+    <div class="mr-24">
       <i class="fa-solid fa-phone-volume text-4xl text-orange-500"></i>
       <span class="text-xl ml-8">+2547 80818238</span><br /><br />
     </div>
     <div class="mr-20">
       <i class="fa-solid fa-envelope text-4xl text-orange-500"></i>
-      <span class="text-xl ml-6">Info@sunrevo.com</span><br /><br />
+      <span class="text-xl ml-6">Info@sunrevo.co.ke</span><br /><br />
     </div>
     <div class="mr-20">
       <i class="fa-solid fa-location-dot text-4xl text-orange-500"></i>

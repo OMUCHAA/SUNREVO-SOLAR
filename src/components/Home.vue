@@ -469,11 +469,13 @@
           </div>
         </div>
       </div>
+      <Contact />
     </div>
   </section>
 </template>
 
 <script setup>
 import ServicesBanner from "../assets/home4.png";
+import Contact from "./Contact.vue";
 import Hero from "./Hero.vue";
 </script>
