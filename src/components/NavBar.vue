@@ -13,7 +13,6 @@
         class="fa-solid fa-xmark rounded-sm py-[8px] px-[8px] w-10 text-sm sm:text-2xl md:text-3xl text-orange-100 bg-blue-800 fixed -mt-4 -ml-2"
       ></i>
     </div>
-    <!--"google-site-verification=l8IVfHdoJ1r2HjztF78HvudJ5MR5WSY18mZS5zPb3Vo"-->
     <!--Show the dropdown if the menu is open-->
     <transition
       enter-active-class="transition duration-400 ease-out"
