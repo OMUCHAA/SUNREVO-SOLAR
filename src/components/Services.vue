@@ -1,23 +1,24 @@
 <template>
   <!--Our Services-->
-  <div class="bg-gray-100">
+  <div class="relative">
+    <img
+      src="/images/home4.webp"
+      alt="Solar services in Kenya"
+      class="absolute inset-0 w-full h-full object-cover"
+      width="1920"
+      height="600"
+      loading="lazy"
+    />
+    <div class="absolute inset-0 bg-black/65"></div>
+
     <div
-      class="relative bg-cover bg-center"
-      :style="{ backgroundImage: `url(${ServicesBanner})` }"
+      data-aos="slide-right"
+      data-aos-duration="1200"
+      class="relative z-10 flex items-center justify-center min-h-[50vh]"
     >
-      <div class="absolute inset-0 bg-black/65"></div>
-      <div class="relative z-10 flex flex-col items-center justify-center min-h-[50vh]">
-        <h1
-          data-aos="slide-right"
-          data-aos-duration="1200"
-          class="text-orange-200 font-normal text-center text-4xl sm:text-5xl md:text-7xl font-serif"
-        >
-          Our Services
-        </h1>
-      </div>
+      <h1 class="text-orange-200 text-4xl md:text-7xl font-serif">Our Services</h1>
     </div>
   </div>
-
   <!--Services Grid-->
   <div
     class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 mx-auto lg:w-4/5 w-[90%] -mt-14"
@@ -27,7 +28,14 @@
       data-aos-duration="600"
       class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
     >
-      <img src="../assets/installation.jpg" alt="" class="rounded-t-2xl" />
+      <img
+        alt="Solar system installation"
+        width="400"
+        height="250"
+        loading="lazy"
+        src="/images/installation.webp"
+        class="rounded-t-2xl w-full"
+      />
       <p class="text-blue-300 font-bold text-lg font">Solar System Installation</p>
       <p class="text-white">
         Complete installation of solar panels, inverters, batteries, charge controllers,
@@ -39,7 +47,14 @@
       data-aos-duration="600"
       class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
     >
-      <img src="../assets/installation2.jpg" alt="" class="rounded-t-2xl" />
+      <img
+        alt="Solar system installation"
+        width="400"
+        height="250"
+        loading="lazy"
+        src="/images/installation2.webp"
+        class="rounded-t-2xl w-full"
+      />
       <p class="text-blue-300 font-bold text-lg font">
         Solar System Design and Consultation
       </p>
@@ -53,7 +68,14 @@
       data-aos-duration="600"
       class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
     >
-      <img src="../assets/repair.jpg" alt="" class="rounded-t-2xl" />
+      <img
+        alt="Solar system installation"
+        width="400"
+        height="250"
+        loading="lazy"
+        src="/images/repair.webp"
+        class="rounded-t-2xl w-full"
+      />
       <p class="text-blue-300 font-bold text-lg font">Solar Maintenance and Repair</p>
       <p class="text-white">
         Routine system checkups, cleaning, troubleshooting, and repair of faulty panels,
@@ -65,7 +87,14 @@
       data-aos-duration="600"
       class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
     >
-      <img src="../assets/energyaudit.jpg" alt="" class="rounded-t-2xl" />
+      <img
+        alt="Solar system installation"
+        width="400"
+        height="250"
+        loading="lazy"
+        src="/images/energyaudit.webp"
+        class="rounded-t-2xl w-full"
+      />
       <p class="text-blue-300 font-bold text-lg font">
         Energy Audits and Efficiency Optimization
       </p>
@@ -79,7 +108,14 @@
       data-aos-duration="600"
       class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
     >
-      <img src="../assets/last.jpg" alt="" class="rounded-t-2xl" />
+      <img
+        alt="Solar system installation"
+        width="400"
+        height="250"
+        loading="lazy"
+        src="/images/last.webp"
+        class="rounded-t-2xl w-full"
+      />
       <p class="text-blue-300 font-bold text-lg font">Solar Equipment Sales</p>
       <p class="text-white">
         Selling high-quality solar products such as panels, batteries, inverters, solar
@@ -91,7 +127,14 @@
       data-aos-duration="600"
       class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
     >
-      <img src="../assets/installation1.jpg" alt="" class="rounded-t-2xl" />
+      <img
+        alt="Solar system installation"
+        width="400"
+        height="250"
+        loading="lazy"
+        src="/images/installation1.webp"
+        class="rounded-t-2xl w-full"
+      />
       <p class="text-blue-300 font-bold text-lg font">Solar Backup and Hybrid Systems</p>
       <p class="text-white">
         Installation of backup power solutions, hybrid systems, and solar battery storage
@@ -205,14 +248,17 @@
         class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
       >
         <img
-          src="../assets/sunrevoproject1.jpg"
-          alt="services image"
+          alt="Solar battery installation"
+          width="360"
+          height="250"
+          loading="lazy"
+          src="/images/sunrevoproject1.webp"
           class="rounded-t-2xl w-full"
         />
         <p class="text-center font-semibold text-xl my-2 text-blue-900">
           High-Performance SunRevo Battery
         </p>
-        <router-link to="/services" class="w-[90%]"
+        <router-link to="/projects" class="w-[90%]"
           ><button
             class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400"
           >
@@ -226,14 +272,17 @@
         class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
       >
         <img
-          src="../assets/sunrevoproject22.jpg"
-          alt="services image"
+          alt="Solar battery installation"
+          width="360"
+          height="250"
+          loading="lazy"
+          src="/images/sunrevoproject22.webp"
           class="rounded-t-2xl w-full"
         />
         <p class="text-center font-semibold text-xl my-2 text-blue-900">
           Reliable Home Power Backup
         </p>
-        <router-link to="/services" class="w-[90%]"
+        <router-link to="/projects" class="w-[90%]"
           ><button
             class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400"
           >
@@ -247,14 +296,17 @@
         class="rounded-t-2xl lg:w-[360px] w-full flex flex-col justify-between bg-white shadow-lg items-center pb-4"
       >
         <img
-          src="../assets/waterheater.jpg"
-          alt="services image"
+          alt="Solar battery installation"
+          width="360"
+          height="250"
+          loading="lazy"
+          src="/images/waterheater.webp"
           class="rounded-t-2xl w-full h-3/5"
         />
         <p class="text-center font-semibold text-xl my-2 text-blue-900">
           Installtion of Solar Water Heater
         </p>
-        <router-link to="/services" class="w-[90%]"
+        <router-link to="/projects" class="w-[90%]"
           ><button
             class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400"
           >
@@ -268,14 +320,17 @@
         class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
       >
         <img
-          src="../assets/ourservices4.jpg"
-          alt="services image"
+          alt="Solar battery installation"
+          width="360"
+          height="250"
+          loading="lazy"
+          src="/images/ourservices4.webp"
           class="rounded-t-2xl w-full"
         />
         <p class="text-center font-semibold text-xl my-2 text-blue-900">
           Kilifi Microgrid
         </p>
-        <router-link to="/services" class="w-[90%]"
+        <router-link to="/projects" class="w-[90%]"
           ><button
             class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400"
           >
@@ -289,14 +344,17 @@
         class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
       >
         <img
-          src="../assets/ourservices2.png"
-          alt="services image"
+          alt="Solar battery installation"
+          width="360"
+          height="250"
+          loading="lazy"
+          src="/images/ourservices2.webp"
           class="rounded-t-2xl w-full"
         />
         <p class="text-center font-semibold text-xl my-2 text-blue-900">
           Rural water pump
         </p>
-        <router-link to="/services" class="w-[90%]"
+        <router-link to="/projects" class="w-[90%]"
           ><button
             class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400"
           >
@@ -310,14 +368,17 @@
         class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
       >
         <img
-          src="../assets/ourservices3.png"
-          alt="services image"
+          alt="Solar battery installation"
+          width="360"
+          height="250"
+          loading="lazy"
+          src="/images/ourservices3.webp"
           class="rounded-t-2xl w-full"
         />
         <p class="text-center font-semibold text-xl my-2 text-blue-900">
           12kW Solar System Mombasa
         </p>
-        <router-link to="/services" class="w-[90%]"
+        <router-link to="/projects" class="w-[90%]"
           ><button
             class="bg-blue-400 w-full py-1 rounded-sm font-bold text-blue-950 hover:bg-blue-950 hover:text-blue-400 transition duration-300 active:bg-blue-400"
           >
@@ -329,6 +390,4 @@
   </div>
 </template>
 
-<script setup>
-import ServicesBanner from "../assets/home4.png";
-</script>
+<script setup></script>

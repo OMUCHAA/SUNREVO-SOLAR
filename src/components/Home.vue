@@ -21,31 +21,46 @@
         </p>
       </div>
       <div class="flex flex-col justify-between my-auto">
-        <img src="../assets/home1.jpg" alt="Homestead-Power" class="rounded-2xl" />
+        <img
+          alt="Solar powered home in Kenya"
+          width="600"
+          height="400"
+          loading="lazy"
+          src="/images/home1.jpg"
+          class="rounded-2xl"
+        />
       </div>
     </div>
 
     <div class="bg-gray-200 mt-8">
       <div
-        class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-3 grid-cols-2 gap-10 justify-around items-center lg:w-[60%] md:w-[75%] w-[92%] mx-auto py-8"
+        class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 w-[92%] md:w-[85%] lg:w-[75%] xl:w-[60%] mx-auto py-8"
       >
         <div
-          class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
+          class="bg-blue-950 rounded flex flex-col items-center justify-center text-center p-2 hover:shadow-lg hover:shadow-black transition duration-300"
         >
           <img
-            src="../assets/customizable11.svg"
-            alt="customizable1"
-            class="h-3/4 rounded-full p-2 border-blue-300 mx-4 border-2"
+            src="/images/customizable11.svg"
+            alt="Home solar power"
+            width="80"
+            height="80"
+            loading="lazy"
+            class="w-24 h-24 object-contain rounded-full border-2 border-blue-300 p-2 mb-3"
           />
-          <p class="text-orange-100 text-center font-bold">Home Power</p>
+          <p class="text-orange-100 font-bold text-sm sm:text-base">Home Power</p>
         </div>
+
+        <!-- Repeat same structure for others -->
         <div
-          class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
+          class="bg-blue-950 rounded flex flex-col items-center justify-center text-center p-2 hover:shadow-lg hover:shadow-black transition duration-300"
         >
           <img
-            src="../assets/customizable22.svg"
-            alt="customizable2"
-            class="h-3/4 rounded-full p-2 border-blue-300 border-2"
+            src="/images/customizable22.svg"
+            alt="Home solar power"
+            width="80"
+            height="80"
+            loading="lazy"
+            class="w-24 h-24 rounded-full p-2 border-blue-300 border-2"
           />
           <p class="text-orange-100 text-center font-bold">MicroGrid Solar</p>
         </div>
@@ -53,9 +68,12 @@
           class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
-            src="../assets/customizable33.svg"
-            alt="customizable3"
-            class="h-3/4 rounded-full p-2 border-blue-300 border-2"
+            src="/images/customizable33.svg"
+            alt="Home solar power"
+            width="80"
+            height="80"
+            loading="lazy"
+            class="w-24 h-24 rounded-full p-2 border-blue-300 border-2"
           />
           <p class="text-orange-100 text-center font-bold">Water Pump</p>
         </div>
@@ -63,9 +81,12 @@
           class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
-            src="../assets/customizable44.svg"
-            alt="customizable4"
-            class="h-3/4 rounded-full p-2 border-blue-300 border-2"
+            src="/images/customizable44.svg"
+            alt="Home solar power"
+            width="80"
+            height="80"
+            loading="lazy"
+            class="w-24 h-24 rounded-full p-2 border-blue-300 border-2"
           />
           <p class="text-orange-100 text-center font-bold">Power Backup</p>
         </div>
@@ -73,9 +94,12 @@
           class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
-            src="../assets/customizable555.svg"
-            alt="customizable5"
-            class="h-3/4 rounded-full p-2 border-blue-300 border-2"
+            src="/images/customizable555.svg"
+            alt="Home solar power"
+            width="80"
+            height="80"
+            loading="lazy"
+            class="w-24 h-24 rounded-full p-2 border-blue-300 border-2"
           />
           <p class="text-orange-100 text-center font-bold">Lighting Solar</p>
         </div>
@@ -83,9 +107,12 @@
           class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
-            src="../assets/customizable66.svg"
-            alt="customizable6"
-            class="h-3/4 border-2 rounded-full p-2 border-blue-300"
+            src="/images/customizable66.svg"
+            alt="Home solar power"
+            width="80"
+            height="80"
+            loading="lazy"
+            class="w-24 h-24 border-2 rounded-full p-2 border-blue-300"
           />
           <p class="text-orange-100 text-center font-bold">Water Heater</p>
         </div>
@@ -94,21 +121,23 @@
 
     <!--Our Services-->
     <div class="bg-gray-100">
-      <div
-        class="relative bg-cover bg-center"
-        :style="{ backgroundImage: `url(${ServicesBanner})` }"
-      >
+      <div class="relative">
+        <img
+          src="/images/home4.webp"
+          alt="Solar services in Kenya"
+          class="absolute inset-0 w-full h-full object-cover"
+          width="1920"
+          height="600"
+          loading="lazy"
+        />
         <div class="absolute inset-0 bg-black/65"></div>
+
         <div
           data-aos="slide-right"
           data-aos-duration="1200"
-          class="relative z-10 flex flex-col items-center justify-center min-h-[50vh]"
+          class="relative z-10 flex items-center justify-center min-h-[50vh]"
         >
-          <h1
-            class="text-orange-200 font-normal text-center text-4xl sm:text-5xl md:text-7xl font-serif"
-          >
-            Our Services
-          </h1>
+          <h1 class="text-orange-200 text-4xl md:text-7xl font-serif">Our Services</h1>
         </div>
       </div>
       <!--Services Grid-->
@@ -120,7 +149,14 @@
           data-aos-duration="600"
           class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
         >
-          <img src="../assets/installation.jpg" alt="" class="rounded-t-2xl" />
+          <img
+            alt="Solar system installation"
+            width="400"
+            height="250"
+            loading="lazy"
+            src="/images/installation.webp"
+            class="rounded-t-2xl w-full"
+          />
           <p class="text-orange-300 font-bold text-lg font">Solar System Installation</p>
           <p class="text-white">
             Complete installation of solar panels, inverters, batteries, charge
@@ -140,7 +176,14 @@
           data-aos-duration="600"
           class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
         >
-          <img src="../assets/installation2.jpg" alt="" class="rounded-t-2xl" />
+          <img
+            alt="Solar system installation"
+            width="400"
+            height="250"
+            loading="lazy"
+            src="/images/installation2.webp"
+            class="rounded-t-2xl w-full"
+          />
           <p class="text-orange-300 font-bold text-lg font">
             Solar System Design and Consultation
           </p>
@@ -161,7 +204,14 @@
           data-aos-duration="600"
           class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
         >
-          <img src="../assets/repair.jpg" alt="" class="rounded-t-2xl" />
+          <img
+            alt="Solar system installation"
+            width="400"
+            height="250"
+            loading="lazy"
+            src="/images/repair.webp"
+            class="rounded-t-2xl w-full"
+          />
           <p class="text-orange-300 font-bold text-lg font">
             Solar Maintenance and Repair
           </p>
@@ -182,7 +232,14 @@
           data-aos-duration="600"
           class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
         >
-          <img src="../assets/energyaudit.jpg" alt="" class="rounded-t-2xl" />
+          <img
+            alt="Solar system installation"
+            width="400"
+            height="250"
+            loading="lazy"
+            src="/images/energyaudit.webp"
+            class="rounded-t-2xl w-full"
+          />
           <p class="text-orange-300 font-bold text-lg font">
             Energy Audits and Efficiency Optimization
           </p>
@@ -203,7 +260,14 @@
           data-aos-duration="600"
           class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
         >
-          <img src="../assets/last.jpg" alt="" class="rounded-t-2xl" />
+          <img
+            alt="Solar system installation"
+            width="400"
+            height="250"
+            loading="lazy"
+            src="/images/last.webp"
+            class="rounded-t-2xl w-full"
+          />
           <p class="text-orange-300 font-bold text-lg font">Solar Equipment Sales</p>
           <p class="text-white">
             Selling high-quality solar products such as panels, batteries, inverters,
@@ -222,7 +286,14 @@
           data-aos-duration="600"
           class="flex flex-col justify-between bg-blue-950 z-30 rounded-2xl text-center p-3"
         >
-          <img src="../assets/installation1.jpg" alt="" class="rounded-t-2xl" />
+          <img
+            alt="Solar system installation"
+            width="400"
+            height="250"
+            loading="lazy"
+            src="/images/installation1.webp"
+            class="rounded-t-2xl w-full"
+          />
           <p class="text-orange-300 font-bold text-lg font">
             Solar Backup and Hybrid Systems
           </p>
@@ -347,8 +418,11 @@
             class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
           >
             <img
-              src="../assets/sunrevoproject1.jpg"
-              alt="services image"
+              alt="Solar battery installation"
+              width="360"
+              height="250"
+              loading="lazy"
+              src="/images/sunrevoproject1.webp"
               class="rounded-t-2xl w-full"
             />
             <p class="text-center font-semibold text-xl my-2 text-blue-900">
@@ -368,8 +442,11 @@
             class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
           >
             <img
-              src="../assets/sunrevoproject22.jpg"
-              alt="services image"
+              alt="Solar battery installation"
+              width="360"
+              height="250"
+              loading="lazy"
+              src="/images/sunrevoproject22.webp"
               class="rounded-t-2xl w-full"
             />
             <p class="text-center font-semibold text-xl my-2 text-blue-900">
@@ -389,8 +466,11 @@
             class="rounded-t-2xl lg:w-[360px] w-full flex flex-col justify-between bg-white shadow-lg items-center pb-4"
           >
             <img
-              src="../assets/waterheater.jpg"
-              alt="services image"
+              alt="Solar battery installation"
+              width="360"
+              height="250"
+              loading="lazy"
+              src="/images/waterheater.webp"
               class="rounded-t-2xl w-full h-3/5"
             />
             <p class="text-center font-semibold text-xl my-2 text-blue-900">
@@ -410,8 +490,11 @@
             class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
           >
             <img
-              src="../assets/ourservices4.jpg"
-              alt="services image"
+              alt="Solar battery installation"
+              width="360"
+              height="250"
+              loading="lazy"
+              src="/images/ourservices4.webp"
               class="rounded-t-2xl w-full"
             />
             <p class="text-center font-semibold text-xl my-2 text-blue-900">
@@ -431,8 +514,11 @@
             class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
           >
             <img
-              src="../assets/ourservices2.png"
-              alt="services image"
+              alt="Solar battery installation"
+              width="360"
+              height="250"
+              loading="lazy"
+              src="/images/ourservices2.webp"
               class="rounded-t-2xl w-full"
             />
             <p class="text-center font-semibold text-xl my-2 text-blue-900">
@@ -452,8 +538,11 @@
             class="rounded-t-2xl lg:w-[360px] w-full flex flex-col bg-white shadow-lg items-center pb-4"
           >
             <img
-              src="../assets/ourservices3.png"
-              alt="services image"
+              alt="Solar battery installation"
+              width="360"
+              height="250"
+              loading="lazy"
+              src="/images/ourservices3.webp"
               class="rounded-t-2xl w-full"
             />
             <p class="text-center font-semibold text-xl my-2 text-blue-900">
@@ -475,7 +564,6 @@
 </template>
 
 <script setup>
-import ServicesBanner from "../assets/home4.png";
 import Contact from "./Contact.vue";
 import Hero from "./Hero.vue";
 </script>

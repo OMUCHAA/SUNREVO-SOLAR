@@ -7,7 +7,7 @@
       <div>
         <h2 class="text-2xl font-bold mb-3 text-blue-300">SUNREVO SOLAR POWER COMPANY</h2>
         <div class="flex md:justify-start justify-center mb-4">
-          <img src="../assets/sunrevo.jpeg" alt="Company-Logo" class="h-12" />
+          <img src="/images/sunrevo.jpeg" alt="Company-Logo" class="h-12" />
         </div>
         <p class="text-blue-300">
           SunRevo Power provides affordable, reliable, and eco-friendly solar energy
