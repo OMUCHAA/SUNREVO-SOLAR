@@ -37,7 +37,7 @@
         class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 w-[92%] md:w-[85%] lg:w-[75%] xl:w-[60%] mx-auto py-8"
       >
         <div
-          class="bg-blue-950 rounded flex flex-col items-center justify-center text-center p-2 hover:shadow-lg hover:shadow-black transition duration-300"
+          class="bg-blue-950 rounded flex flex-col items-center justify-center text-center py-4 hover:shadow-lg hover:shadow-black transition duration-300"
         >
           <img
             src="/images/customizable11.svg"
@@ -52,7 +52,7 @@
 
         <!-- Repeat same structure for others -->
         <div
-          class="bg-blue-950 rounded flex flex-col items-center justify-center text-center p-2 hover:shadow-lg hover:shadow-black transition duration-300"
+          class="bg-blue-950 rounded flex flex-col items-center justify-center text-center py-4 hover:shadow-lg hover:shadow-black transition duration-300"
         >
           <img
             src="/images/customizable22.svg"
@@ -65,7 +65,7 @@
           <p class="text-orange-100 text-center font-bold">MicroGrid Solar</p>
         </div>
         <div
-          class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
+          class="bg-blue-950 rounded grid items-center justify-center py-4 hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
             src="/images/customizable33.svg"
@@ -78,7 +78,7 @@
           <p class="text-orange-100 text-center font-bold">Water Pump</p>
         </div>
         <div
-          class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
+          class="bg-blue-950 rounded grid items-center justify-center py-4 hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
             src="/images/customizable44.svg"
@@ -91,7 +91,7 @@
           <p class="text-orange-100 text-center font-bold">Power Backup</p>
         </div>
         <div
-          class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
+          class="bg-blue-950 rounded grid items-center justify-center p-4 hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
             src="/images/customizable555.svg"
@@ -104,7 +104,7 @@
           <p class="text-orange-100 text-center font-bold">Lighting Solar</p>
         </div>
         <div
-          class="bg-blue-950 rounded grid items-center justify-center hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
+          class="bg-blue-950 rounded grid items-center justify-center py-4 hover:shadow-black hover:shadow-lg cursor-pointer transition duration-200"
         >
           <img
             src="/images/customizable66.svg"
@@ -318,7 +318,7 @@
         <h1 class="font-semibold lg:text-3xl md:text-2xl text-xl">
           Why Choose SUNREVO Power?
         </h1>
-        <div id="sub-wrapper" class="grid lg:grid-cols-3 md:grid-cols-2 gap-5 p-4">
+        <div id="sub-wrapper" class="grid lg:grid-cols-3 md:grid-cols-2 gap-5 py-4">
           <div
             data-aos="slide-up"
             data-aos-duration="600"
