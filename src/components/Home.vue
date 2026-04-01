@@ -26,7 +26,7 @@
           width="600"
           height="400"
           loading="lazy"
-          src="/images/home1.jpg"
+          src="/images/home1.webp"
           class="rounded-2xl"
         />
       </div>
